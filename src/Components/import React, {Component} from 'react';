@@ -1,0 +1,104 @@
+import React, {Component} from 'react';
+import {
+  StyleSheet,
+  View,
+  StatusBar,
+  Platform,
+  Text,
+  TouchableOpacity,
+  Image,
+  Dimensions,
+} from 'react-native';
+import {Icon} from 'native-base';
+
+const {width, height} = Dimensions.get('screen');
+import {scaleHeight, scaleWidth} from '../Utils/responsive';
+export default class Header extends Component {
+  render() {
+    return (
+      <View style={styles.appBar}>
+        <ImageBackground
+          source={require('../images/F3.png')}
+          style={{
+            flex: 0.7,
+            height: 380,
+            width: 400,
+          }}
+        />
+        <Icon
+          style={{
+            fontSize: 35,
+            marginRight: 260,
+            marginTop: 15,
+          }}
+          name="menu"
+        />
+
+        <TouchableOpacity
+          onPress={() => this.props.navigation.navigate('Search')}>
+          <Icon
+            style={{
+              fontSize: 25,
+              paddingTop: 20,
+              marginRight: 17,
+            }}
+            name="magnify"
+            type="MaterialCommunityIcons"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => this.props.navigation.navigate('Cart')}>
+          <Icon
+            style={{
+              fontSize: 25,
+              marginRight: 10,
+              paddingTop: 18,
+            }}
+            name="shopping-outline"
+            type="MaterialCommunityIcons"
+          />
+        </TouchableOpacity>
+      </View>
+    );
+  }
+}
+const APPBAR_HEIGHT = Platform.OS === 'ios' ? 80 : 80;
+const styles = StyleSheet.create({
+  wrapper: {
+    width: '100%',
+  },
+  container: {
+    flex: 1,
+  },
+
+  appBar: {
+    backgroundColor: 'transparent',
+    height: APPBAR_HEIGHT,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    width: width - scaleWidth(30),
+    marginLeft: scaleWidth(15),
+  },
+  leftBtn: {
+    height: '100%',
+    width: 60,
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    // marginRight: scaleWidth(15)
+  },
+  leftIcon: {
+    height: 20,
+    width: 30,
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: '700',
+    color: '#000',
+  },
+  notification: {
+    height: scaleHeight(25),
+    width: scaleWidth(25),
+    marginRight: 10,
+  },
+});

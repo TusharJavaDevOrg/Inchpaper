@@ -1,0 +1,272 @@
+{
+  "project_info": {
+    "project_number": "382818658961",
+    "firebase_url": "https://krenai-webapp.firebaseio.com",
+    "project_id": "krenai-webapp",
+    "storage_bucket": "krenai-webapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382818658961:android:eb2256210eb54713cf6d30",
+        "android_client_info": {
+          "package_name": "com.delites"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-Bno5oFpaue-EcqU04xS8LK9LGfET5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382818658961:android:21904d2b2116a268cf6d30",
+        "android_client_info": {
+          "package_name": "com.foodcave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-Bno5oFpaue-EcqU04xS8LK9LGfET5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382818658961:android:bb0b4813c6d20fc3cf6d30",
+        "android_client_info": {
+          "package_name": "com.fooddoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-Bno5oFpaue-EcqU04xS8LK9LGfET5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382818658961:android:a059136da910e54acf6d30",
+        "android_client_info": {
+          "package_name": "com.inchpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-Bno5oFpaue-EcqU04xS8LK9LGfET5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382818658961:android:456933bf3240105fcf6d30",
+        "android_client_info": {
+          "package_name": "com.interntask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-Bno5oFpaue-EcqU04xS8LK9LGfET5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382818658961:android:68b7727a6d295ae2cf6d30",
+        "android_client_info": {
+          "package_name": "com.krenai.vendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-Bno5oFpaue-EcqU04xS8LK9LGfET5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382818658961:android:5ccb0e85938913fbcf6d30",
+        "android_client_info": {
+          "package_name": "com.madhuzsupermart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-Bno5oFpaue-EcqU04xS8LK9LGfET5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382818658961:android:ac8184562eb9f793cf6d30",
+        "android_client_info": {
+          "package_name": "com.trendy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-Bno5oFpaue-EcqU04xS8LK9LGfET5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382818658961:android:0851ace987e8ae4ecf6d30",
+        "android_client_info": {
+          "package_name": "com.wemenuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-Bno5oFpaue-EcqU04xS8LK9LGfET5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382818658961-t7ob797btndlfajqqob5r4gv3imnj8nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

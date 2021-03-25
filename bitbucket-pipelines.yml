@@ -1,0 +1,41 @@
+
+image: node:10.15.3
+
+pipelines:
+  branches:
+    master: #name of your test branch
+    - step:
+          name: build
+          image: node:10.15.3
+          caches:
+            - node
+            - gradle
+          script: # Modify the commands below to build your repository.
+            #env preperation
+            - npm install
+    - step:
+          name: configure
+          image: mingc/android-build-box:latest
+          caches:
+            - node
+          script: # Modify the commands below to build your repository
+            #build
+            - cd ./android
+            - chmod +x gradlew
+            - ./gradlew assembleRelease
+            - ls -R
+    - step:
+          name: Deploy to Production
+          deployment: Production
+          trigger: manual
+          clone:
+            enabled: false
+          script:
+            # sync your files to S3
+            - pipe: atlassian/aws-s3-deploy:0.4.4
+              variables:
+                AWS_ACCESS_KEY_ID: AKIA3S5KXOZ4YJ7BMYXD
+                AWS_SECRET_ACCESS_KEY: eqM7qnRVRhGIfklTz9yvJXpWvPqsUjgmnwMb+rrx
+                AWS_DEFAULT_REGION: ap-south-1
+                S3_BUCKET: 'krenai-v4-resources'
+                LOCAL_PATH: 'build'
