@@ -1,0 +1,40 @@
+name: Main Build
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [10.x]
+        
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js 10.15.3
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.15.3
+    - name: Npm Install
+      run: |
+        npm install
+    - name: gradle permissions
+      working-directory: ./android
+      run: |
+        chmod +x gradlew
+    - name: gradle permissions 2
+      working-directory: ./android
+      run: |
+        ./gradlew clean assembleRelease bundleRelease
+    - name: Deploy to S3
+      uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --acl public-read --delete
+      env:
+        AWS_S3_BUCKET: AKIA3S5KXOZ4YJ7BMYXD
+        AWS_ACCESS_KEY_ID: AKIA3S5KXOZ4YJ7BMYXD
+        AWS_SECRET_ACCESS_KEY: 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
+        AWS_REGION: "krenai-v4-resources"
+        SOURCE_DIR: "build"
