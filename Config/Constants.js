@@ -1,4 +1,4 @@
-export const supplierId = java.util.Random@2aa271dc;
+export const supplierId = java.util.Random@2dd8f082;
 
 // const staggingStoreManager =
 //   'http://ec2-13-126-234-238.ap-south-1.compute.amazonaws.com/';
