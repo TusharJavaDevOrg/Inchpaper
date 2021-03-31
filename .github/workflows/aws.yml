@@ -20,6 +20,9 @@ jobs:
     - name: Npm Install
       run: |
         npm install
+    - name: Npx Jetify
+      run: |
+        npx jetify     
     - name: gradle permissions
       working-directory: ./android
       run: |
