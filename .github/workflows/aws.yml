@@ -36,7 +36,7 @@ jobs:
       with:
         args: --acl public-read --delete
       env:
-        AWS_S3_BUCKET: "krenai-v4-resources"
+        AWS_S3_BUCKET: "app-releases-cicd"
         AWS_ACCESS_KEY_ID: AKIA3S5KXOZ4YJ7BMYXD
         AWS_SECRET_ACCESS_KEY: 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
         AWS_REGION: ap-south-1
