@@ -40,4 +40,4 @@ jobs:
         AWS_ACCESS_KEY_ID: AKIA3S5KXOZ4YJ7BMYXD
         AWS_SECRET_ACCESS_KEY: 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
         AWS_REGION: ap-south-1
-        SOURCE_DIRECTORY: ./android/app/build/outputs/apk
+        SOURCE_DIR: android/app/build/outputs/apk
