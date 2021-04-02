@@ -34,7 +34,7 @@ jobs:
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
       with:
-        args: --acl public-read --delete
+        args: --acl public-read
       env:
         AWS_S3_BUCKET: "app-releases-cicd"
         AWS_ACCESS_KEY_ID: AKIA3S5KXOZ4YJ7BMYXD
