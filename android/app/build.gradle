@@ -177,7 +177,7 @@ android {
             
                         applicationVariants.all { variant ->
     variant.outputs.all {
-        outputFileName = "509.apk"
+        outputFileName = "510.apk"
     }
 }
         }
