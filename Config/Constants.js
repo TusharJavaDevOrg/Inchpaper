@@ -1,4 +1,4 @@
-export const supplierId = 531;
+export const supplierId = 532;
 
 // const staggingStoreManager =
 //   'http://ec2-13-126-234-238.ap-south-1.compute.amazonaws.com/';
